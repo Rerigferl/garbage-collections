@@ -1,0 +1,10 @@
+{
+    "name": "numeira.garbage-collections",
+    "version": "0.0.0",
+    "displayName": "Numeira's Garbage Collections",
+    "description": "A collection of garbage editor extensions",
+    "url": "https://github.com/Rerigferl/garbage-collections",
+    "vpmDependencies": {
+        "nadena.dev.ndmf" : "^1.2.5"
+    }
+}
