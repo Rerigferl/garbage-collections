@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using VRC.SDK3.Avatars.Components;
+using VRC.SDKBase;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -10,8 +9,9 @@ using UnityEditorInternal;
 
 namespace Numeira
 {
+    [AddComponentMenu("NDMF/Garbage/Lip Sync Fix")]
     [RequireComponent(typeof(VRCAvatarDescriptor))]
-    public sealed class LipSyncFixComponent : MonoBehaviour
+    public sealed class LipSyncFixComponent : MonoBehaviour, IEditorOnly
     {
         public SkinnedMeshRenderer? Face;
         public string MouthBlendShapeSelector = /* lang=regex */ "^mouth_.*$";
