@@ -1,5 +1,5 @@
 {
-    "name": "numeira.garbage-collections",
+    "name": "numeira.garbage-collections.runtime",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
